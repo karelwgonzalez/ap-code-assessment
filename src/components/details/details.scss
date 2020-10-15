@@ -1,0 +1,64 @@
+
+.details-header {
+  &__name {
+    color: grey;
+  }
+}
+
+.details-description {
+  padding-top: 30px;
+  cursor: pointer;
+  p {
+    &.collapse {
+      display: block;
+      height: 1.5rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      
+      &.show {
+        height: auto;
+        white-space: normal;
+      }
+    }
+    &.collapsing {
+      height: 1.5rem;
+    }
+  }
+}
+
+.details-header {
+  &__price {
+    &-current {
+      .price {
+        font-size: 2.5rem;
+        font-weight: 600;
+      }
+      .currency {
+        font-size: 1.5rem;
+        padding-top: 18px;
+        padding-left: 8px;
+      }
+    }
+    &-change {
+      font-size: 1.3rem;
+      font-weight: 500;
+      .pos {
+        color: green;
+        &:before {
+          content:"\25B2"
+        }
+      }
+      .neg {
+        color: red;
+        &:before {
+          content:"\25BC"
+        }
+      }
+    }
+    &-date {
+      padding-top: 36px;
+      font-size: 0.75rem;
+    }
+  }
+}
