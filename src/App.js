@@ -11,9 +11,19 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      <SearchForm onChange={handleChange} />
-      <SecurityDetails symbol={symbol} />
+    <div className="app container">
+      <div className="row app__heading">
+        <div className="col-12">
+          <h1>Stock Search</h1>
+        </div>
+        <SearchForm onChange={handleChange} />
+      </div>
+      <div className="row app__body">
+        <div className="col-12">
+          <SecurityDetails symbol={symbol} />
+
+        </div>
+      </div>
     </div>
   );
 }

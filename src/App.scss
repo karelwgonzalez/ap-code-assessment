@@ -1,2 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~react-bootstrap-typeahead/css/Typeahead";
+
+.app {
+  &__heading {
+    padding-top: 30px;
+    background: lightgray;
+    border-bottom: 2px solid darkgray;
+  }
+  &__body {
+    padding-top: 18px;
+  }
+}
