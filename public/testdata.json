@@ -1,0 +1,50 @@
+{
+  "overview": {
+    "MS": {
+      "Symbol": "MS",
+      "Name": "Morgan Stanley",
+      "Description": "Morgan Stanley, a financial holding company, provides various financial products and services to corporations, governments, financial institutions, and individuals in the Americas, Europe, the Middle East, Africa, and Asia. The company operates through Institutional Securities, Wealth Management, and Investment Management segments. The Institutional Securities segment offers capital raising and financial advisory services, including services related to the underwriting of debt, equity, and other securities, as well as advice on mergers and acquisitions, restructurings, real estate, and project finance. This segment also provides sales and trading services, including sales, financing, prime brokerage, and market-making services in equity and fixed income products consisting of foreign exchange and commodities; corporate and commercial real estate loans, which provides secured lending facilities and financing for sales and trading customers, as well as asset-backed and mortgage lending; and wealth management services, investment, and research services. The Wealth Management segment offers various financial services and solutions covering brokerage and investment advisory services; financial and wealth planning services; stock plan administration services; annuity and insurance products; securities-based lending, residential real estate loans, and other lending products; and banking and retirement plan services to individual investors and small to medium-sized businesses and institutions. The Investment Management segment provides various investment strategies and products comprising equity, fixed income, liquidity, and alternative/other products to benefit/defined contribution plans, foundations, endowments, government entities, sovereign wealth funds, insurance companies, and third-party fund sponsors and corporations through a network of institutional and intermediary channels. Morgan Stanley was founded in 1924 and is headquartered in New York, New York.",
+      "Exchange": "NYSE",
+      "Currency": "USD"
+    },
+    "MSFT": {
+      "Symbol": "MSFT",
+      "Name": "Microsoft Corporation",
+      "Description": "Microsoft Corporation develops, licenses, and supports software, services, devices, and solutions worldwide. Its Productivity and Business Processes segment offers Office, Exchange, SharePoint, Microsoft Teams, Office 365 Security and Compliance, and Skype for Business, as well as related Client Access Licenses (CAL); Skype, Outlook.com, and OneDrive; LinkedIn that includes Talent, Learning, Sales, and Marketing solutions, as well as premium subscriptions; and Dynamics 365, a set of cloud-based and on-premises business solutions for small and medium businesses, large organizations, and divisions of enterprises. Its Intelligent Cloud segment licenses SQL and Windows Servers, Visual Studio, System Center, and related CALs; GitHub that provides a collaboration platform and code hosting service for developers; and Azure, a cloud platform. It also offers support services and Microsoft consulting services to assist customers in developing, deploying, and managing Microsoft server and desktop solutions; and training and certification to developers and IT professionals on various Microsoft products. Its More Personal Computing segment provides Windows original equipment manufacturer (OEM) licensing and other non-volume licensing of the Windows operating system; Windows Commercial, such as volume licensing of the Windows operating system, Windows cloud services, and other Windows commercial offerings; patent licensing; Windows Internet of Things; and MSN advertising. It also offers Surface, PC accessories, PCs, tablets, gaming and entertainment consoles, and other intelligent devices; Gaming, including Xbox hardware, and Xbox content and services; video games and third-party video game royalties; and Search, including Bing and Microsoft advertising. It sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online stores, and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+      "Exchange": "NASDAQ",
+      "Currency": "USD"
+    },
+    "MSI": {
+      "Symbol": "MSI",
+      "Name": "Motorola Solutions, Inc",
+      "Description": "Motorola Solutions, Inc. provides mission-critical communication solutions in the United States, the United Kingdom, Canada, and internationally. The company operates in two segments, Products and Systems Integration, and Services and Software. The Products and Systems Integration segment offers a portfolio of infrastructure, devices, accessories, and video solutions, as well as the implementation, optimization, and integration of networks, devices, software, and applications for government, public safety and first-responder agencies, municipalities, and commercial and industrial customers. Its products include two-way portable and vehicle-mounted radios, accessories, software features, and upgrades; video cameras; radio network core and central processing software, base stations, consoles, and repeaters; and video analytics, network video management hardware and software, and access control solutions. The Services segment provides repair, technical support, and hardware maintenance services. This segment also offers monitoring, software updates, and cybersecurity services; and public safety and enterprise command center software suite, unified communications applications, and video software solutions. It serves for government, public safety, and commercial communication networks. The company was formerly known as Motorola, Inc. and changed its name to Motorola Solutions, Inc. in January 2011. Motorola Solutions, Inc. was founded in 1928 and is headquartered in Chicago, Illinois.",
+      "Exchange": "NYSE",
+      "Currency": "USD"
+    }
+  },
+  "globalquote": {
+    "MS": {
+      "price": "50.6500",
+      "date": "2020-10-14",
+      "change": "0.2100",
+      "percent": "0.4163%"
+    },
+    "MSFT": {
+      "change": "-2.0000",
+      "date": "2020-10-14",
+      "percent": "-0.8974%",
+      "price": "220.8600"
+    },
+    "MSI": {
+      "price": "166.9200",
+      "date": "2020-10-14",
+      "change": "0.6800",
+      "percent": "0.4090%"
+    }
+  },
+  "symbols": [
+    {"symbol": "MS", "name": "Morgan Stanley"},
+    {"symbol": "MSFT", "name": "Microsoft Corporation"},
+    {"symbol": "MSI", "name": "Motorola Solutions Inc."}
+  ]
+}
