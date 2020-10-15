@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.scss';
+import SearchForm from './components/searchform/searchform';
+import SecurityDetails from './components/details/details';
 
-function App() {
+const App = () => {
+  const [symbol, setSymbol] = useState("");
+
+  const handleChange = (symbol) => {
+    setSymbol(symbol);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchForm onChange={handleChange} />
+      <SecurityDetails symbol={symbol} />
     </div>
   );
 }
