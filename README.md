@@ -1,3 +1,17 @@
+## Notes for Reviewers
+
+Configuring `.env` is required before starting/building this app. There is test data available in `public/testdata.json` that can be used in lieu of API calls, but this data is severely limited. A template with directions is included in the root directory.
+
+There were a lot of considerations that had to be made to compensate for the way alphavantage returns data and errors. All of that is done in `data/api.js`. The data in `public/testdata.json` reflects the post-processed version of the data so we didn't have to do any transforms on it.
+
+The idea here was to not do any data transformation in the views, so it all ended up in the API methods. Unless I missed something, views should just be views with a little bit of promise resolution logic to handle displaying errors returned by the API methods. 
+
+The request limit of the API partially dictated the limited information of the details display. The other part is that I'm not really a stock market person, so I didn't really know what data is relevant to a user in this situation.
+
+The interface is, admittedly, a little plain. But I did try to do some common things like conditional styling and modifying a bootstrap component to do something neat. It should be responsive and work on Chrome, Firefox (Windows 10, Ubuntu) and Edge. I don't have a Mac to test on at home, but I feel it's pretty safe to assume it works on Safari.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
