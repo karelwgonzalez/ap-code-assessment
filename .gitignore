@@ -22,5 +22,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# api key file
-src/data/key.js
+# ignore .env because thats where the api key goes and we don't want to store that
+.env
