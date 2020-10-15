@@ -10,6 +10,22 @@ The request limit of the API partially dictated the limited information of the d
 
 The interface is, admittedly, a little plain. But I did try to do some common things like conditional styling and modifying a bootstrap component to do something neat. It should be responsive and work on Chrome, Firefox (Windows 10, Ubuntu) and Edge. I don't have a Mac to test on at home, but I feel it's pretty safe to assume it works on Safari.
 
+## Known issues
+
+Using enter to confirm a search doesn't fire a search
+* This is a byproduct of the autocomplete library [react-bootstrap-typeahead](https://github.com/ericgio/react-bootstrap-typeahead) not counting the enter key as a first class use case. I wish I had realized this earlier on in development, but by the time I had I was almost complete with the project. 
+
+No testing support
+* I would have liked to include some tests, but in the interest of time I decided it was better to focus more on the app itself.
+
+## Final notes
+
+This was a pretty fun thing to put together. I had some issues in places I didn't think I would, and had few issues in places I thought would give me problems.
+
+I hope you enjoy looking the project over, and I look forward to talking with you in the future.
+
+-Karel
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
